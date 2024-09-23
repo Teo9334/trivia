@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia</title>
+    <!-- ICONO -->
+    <link rel="icon" href="/img/uruguay.png" type="image/x-icon">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+
+    <!-- Estilos -->
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+    <!-- CARTEL DE ALERTA -->
+    <div id="error">
+    </div>
+
+    <!-- TARJETA PRINCIPAL-->
+    <div class="card" id="inicio">
+        <!-- CONTENIDO -->
+        <h1 class="tituloCard">PREGUNTAS SOBRE URUGUAY</h1>
+        
+        <input type="text" class="input" id="nombre" placeholder="Nombre" autocomplete="off">
+        <button id="btn" class="btn" onclick="comenzar()">Comenzar</button>
+
+        <div class="reglas">
+            <p class="titulo">¿Cómo se juega?</p>
+            <p>Primero debes ingresar tu nombre</p>
+            <p>Luego apretar el botón "Comenzar"</p>
+            <p>Te aparecera una pregunta con sus respuestas</p>
+            <p>Solo una respuesta es verdadera</p>
+            <p>Habran 10 preguntas</p>
+        </div>
+        
+    </div>
+
+    <!-- JS -->
+     <script src="./js/app.js"></script>
+</body>
+</html>
